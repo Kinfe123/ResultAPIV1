@@ -10,12 +10,10 @@ app.listen((PORT ) , ()=>{
 })
 app.use(express.static('public'));
 app.get("/" , (req , res)=>{
-    res.send("Welcome to the result API...You can explore the student result at /results page")
+    res.send("Welcome to the result API...You can explore the student result at /results page and /results/id_number ex. id_number = 526515")
 })
 app.get('/results' , (req , res)=>{
     res.send(result)
-    
-
 })
 app.get('/results/:result/' , (req , res)=>{
     console.log(req.params.result)
