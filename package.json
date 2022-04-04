@@ -1,0 +1,14 @@
+{
+  "name": "resultapi1",
+  "version": "1.0.0",
+  "description": "this is the yaberus student result api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KINFE MICHAEL TARIKU",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
