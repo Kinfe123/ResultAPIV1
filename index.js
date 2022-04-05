@@ -4,7 +4,7 @@ const fs = require('fs')
 var data = fs.readFileSync('kinfe.json')
 var result = JSON.parse(data)
 const app  = express()
-const PORT = 5000 || process.env.PORT
+const PORT = process.env.PORT  || 5000 
 app.listen((PORT ) , ()=>{
     console.log("Server started at the PORT " , PORT )
 })
